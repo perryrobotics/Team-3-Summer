@@ -1,0 +1,41 @@
+#!/usr/bin/python
+import os, sys
+from wallaby import *
+from library import *
+
+def right_path():
+	move_left(1000, 200)
+	move_back(1000, 350)
+	close_claw(10)
+	top_arm(50)
+	move(1000, 1200)
+	open_claw(50)
+	move_back(1500, 3000)
+	up_arm(50)
+	move_right(1000, 600)
+	down_arm(50)
+	move(1000, 300)
+	close_claw(50)
+	move_left(1000, 200)
+	move(1500, 1500)
+	top_arm(50)
+	move(1500, 1200)
+	open_claw(50)
+	move_back(1500, 1000)
+	back_to_black(1500)
+	st_arm(50)
+	move_right(1000, 400) 
+	back_to_black(1500)
+	back_to_white(1500)
+	down_arm(50)
+	move(1500, 500)
+	move_left(1500, 200)
+	move(1500, 300)
+	close_claw(50)
+	move_left(1500, 250)
+	top_arm(50)
+	move(1500, 2000)
+	drive_to_black(1500)
+	move_left(1500, 400)
+	open_claw(50)
+        
